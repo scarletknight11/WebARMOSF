@@ -1,0 +1,21 @@
+{
+    "name": "org.mindar.webar-foundation",
+    "version": "1.2.3",
+    "displayName": "WebAR Foundation",
+    "description": "WebAR bundle - integration with WebAR tools to build webgl augmented reality applications",
+    "unity": "2019.1",
+    "unityRelease": "0b5",
+    "keywords": [
+      "WebAR",
+      "Augmented Reality",
+      "AR Foundation",
+      "Image Tracking",
+      "MindAR",
+      "AR.js"
+    ],
+    "author": {
+      "name": "mindar.org",
+      "email": "mindarjs2021@gmail.com",
+      "url": "https://mindar.org"
+    }
+  }
