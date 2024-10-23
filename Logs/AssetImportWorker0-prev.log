@@ -1,0 +1,647 @@
+Unity Editor version:    2022.3.42f1 (2dcb6a0abc42)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1 (Build 23B2073)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/hagarplatner/Documents/GitHub/WebARMOSF
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61365
+Successfully changed project path to: /Users/hagarplatner/Documents/GitHub/WebARMOSF
+/Users/hagarplatner/Documents/GitHub/WebARMOSF
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7921639104]  Target information:
+
+Player connection [7921639104]  * "[IP] 10.100.102.13 [Port] 0 [Flags] 2 [Guid] 575773800 [EditorId] 575773800 [Version] 1048832 [Id] OSXEditor(0,Hagars-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [7921639104] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7921639104] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hagarplatner/Documents/GitHub/WebARMOSF/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56527
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001315 seconds.
+- Loaded All Assemblies, in  0.152 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 47 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 377ms
+	BeginReloadAssembly (34ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (34ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (138ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (45ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.262 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.334 seconds
+Domain Reload Profiling: 596ms
+	BeginReloadAssembly (54ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (48.9 KB). Loaded Objects now: 3578.
+Memory consumption went from 131.8 MB to 131.7 MB.
+Total: 2.310250 ms (FindLiveObjects: 0.078083 ms CreateObjectMapping: 0.029959 ms MarkObjects: 2.145166 ms  DeleteObjects: 0.056542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139342.228585 seconds.
+  path: Assets/WebAR Foundation/Editor/MindARImageTrackingManagerEditor.cs
+  artifactKey: Guid(c9e9f366b9f664f1bb618e2944f8233a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Editor/MindARImageTrackingManagerEditor.cs using Guid(c9e9f366b9f664f1bb618e2944f8233a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '9647c318df5d7d3d0293a01ac9f894c5') in 0.035800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/WebAR Foundation/Runtime/Prefabs/ARCamera.prefab
+  artifactKey: Guid(1dc5ee80c79944e10b01ab0c9dbc5e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Prefabs/ARCamera.prefab using Guid(1dc5ee80c79944e10b01ab0c9dbc5e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'a53c5887a0e902305daa9552e05ca31f') in 0.017184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/BoxMask.fbx
+  artifactKey: Guid(7a3f09ccccce52a418ff65e18638e0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/BoxMask.fbx using Guid(7a3f09ccccce52a418ff65e18638e0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '51a8f22f5179a29f5704c08037c849b0') in 0.027343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/3D_Models/Derelict Structure/T_DerelictStructurew_Albedo.mat
+  artifactKey: Guid(740f3c780ba697247a026a703240328c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D_Models/Derelict Structure/T_DerelictStructurew_Albedo.mat using Guid(740f3c780ba697247a026a703240328c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'a1d4c3a676672ecd297d276acb63f6bd') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/BoxOcculusion/Material.001.mat
+  artifactKey: Guid(e2b83f6f10f314aa287fbeec5879055a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/BoxOcculusion/Material.001.mat using Guid(e2b83f6f10f314aa287fbeec5879055a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '43cb9d09994748f22380640b2d728d70') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WebAR Foundation/Runtime/Materials/Occluder.mat
+  artifactKey: Guid(22e8d40ae37704d94a8a44db2f5e6851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Materials/Occluder.mat using Guid(22e8d40ae37704d94a8a44db2f5e6851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '4b5d7c4dde825f516fdb79c224ae8c7f') in 0.001836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/WebAR Foundation/Editor/FaceTrackingDebugWindow.cs
+  artifactKey: Guid(7a1da4551fd2a450da0fa9a13f4ba128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Editor/FaceTrackingDebugWindow.cs using Guid(7a1da4551fd2a450da0fa9a13f4ba128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '37a08fb915ea307a866e06cf21abedb8') in 0.002744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/FaceMeshGeometry.cs
+  artifactKey: Guid(4ace8e03b56ae403dbb07d834ed275ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/FaceMeshGeometry.cs using Guid(4ace8e03b56ae403dbb07d834ed275ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '897240f8499799218b7f9bb665af5966') in 0.001412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/WebAR Foundation/package.json
+  artifactKey: Guid(756e0fd7c7455410eb4cd4b0814697cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/package.json using Guid(756e0fd7c7455410eb4cd4b0814697cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '802ff6daf2fc57d1e3ae1057d598778e') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3D_Models/Derelict Structure/DerelictStructure.fbx
+  artifactKey: Guid(bf15d067cbcc4b041a98d78b0912e9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D_Models/Derelict Structure/DerelictStructure.fbx using Guid(bf15d067cbcc4b041a98d78b0912e9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'e59d5e7b0dbeb7cedd5c51d2f0757faf') in 0.005765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/WebAR Foundation/Runtime/Plugins/MindARImage.jspre
+  artifactKey: Guid(49797f73a4aa54d629bb9116aec7f58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Plugins/MindARImage.jspre using Guid(49797f73a4aa54d629bb9116aec7f58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '2f83b87271b500b4d7f387aa83957870') in 0.003246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/ImageTracker.cs
+  artifactKey: Guid(8fe990d8853d04499aea34f10d405a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/ImageTracker.cs using Guid(8fe990d8853d04499aea34f10d405a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '8b116f0ae31fd438f297df902d732b81') in 0.002023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/WebAR Foundation/Samples/ImageTrackingMulti.unity
+  artifactKey: Guid(c8cbc225256c54343968c7fef91deab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Samples/ImageTrackingMulti.unity using Guid(c8cbc225256c54343968c7fef91deab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'd6ab44cae6ede44bff164c94026e2fe2') in 0.001334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/FaceMesh.cs
+  artifactKey: Guid(1547a545b341c49d392b5143d3a1cd14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/FaceMesh.cs using Guid(1547a545b341c49d392b5143d3a1cd14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '35c1d6c2acd67b60cf356f04556485e0') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WebAR Foundation/Editor/SceneUtils.cs
+  artifactKey: Guid(c4547620c60dd4d8b93624f6fdb239b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebAR Foundation/Editor/SceneUtils.cs using Guid(c4547620c60dd4d8b93624f6fdb239b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '6fc5541ad1c42f208b7981f9919e12ad') in 0.002474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 292.372138 seconds.
+  path: Assets/WebAR Foundation/package.json
+  artifactKey: Guid(756e0fd7c7455410eb4cd4b0814697cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/package.json using Guid(756e0fd7c7455410eb4cd4b0814697cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '8bc3d3c33a9feadabdb2cd9f310a77de') in 0.006167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.773688 seconds.
+  path: Assets/WebAR Foundation/README.md
+  artifactKey: Guid(3dece087844be424ba86591f0c54db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/README.md using Guid(3dece087844be424ba86591f0c54db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '5f978c22d7cd6a5164b2b6a55a2879cd') in 0.000619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.585021 seconds.
+  path: Assets/WebAR Foundation/Runtime
+  artifactKey: Guid(af070eb400c124eaeb180df38384c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime using Guid(af070eb400c124eaeb180df38384c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'cb35ac477f13b0a0fdb43a8579199976') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.413928 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts
+  artifactKey: Guid(500e13c75d0fa4802b35d29a087b9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts using Guid(500e13c75d0fa4802b35d29a087b9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'fe4889b4c252d5e9e4778808e6f76e0f') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.031384 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/ARCamera.cs
+  artifactKey: Guid(962b5375a28784aca8719e7c5702c170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/ARCamera.cs using Guid(962b5375a28784aca8719e7c5702c170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '4ed55fe361988644411f6ff909abe444') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.145605 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/FaceMesh.cs
+  artifactKey: Guid(1547a545b341c49d392b5143d3a1cd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/FaceMesh.cs using Guid(1547a545b341c49d392b5143d3a1cd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '0320552bf5f813af41cd2a0390969d64') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.781029 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/FaceMeshGeometry.cs
+  artifactKey: Guid(4ace8e03b56ae403dbb07d834ed275ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/FaceMeshGeometry.cs using Guid(4ace8e03b56ae403dbb07d834ed275ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '845e107ff3db25041e0cf90d405a0284') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.655221 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/FaceTracker.cs
+  artifactKey: Guid(2fd92876775c34215a7be441142834c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/FaceTracker.cs using Guid(2fd92876775c34215a7be441142834c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '8e85e20178bbb3198dc91be1f6051578') in 0.000326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.060734 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/ImageTracker.cs
+  artifactKey: Guid(8fe990d8853d04499aea34f10d405a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/ImageTracker.cs using Guid(8fe990d8853d04499aea34f10d405a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '6791a40f6d0b507bb60646c2723858b6') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.156667 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/MindARFaceTrackingManager.cs
+  artifactKey: Guid(0908711a9a4494371970dd80c0425bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/MindARFaceTrackingManager.cs using Guid(0908711a9a4494371970dd80c0425bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '138abf3f32ccb08e88734f56f0773e60') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.764024 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/MindARImageTrackingManager.cs
+  artifactKey: Guid(f9a57359129a247aab2eb29440a560bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/MindARImageTrackingManager.cs using Guid(f9a57359129a247aab2eb29440a560bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '584272d739bcf771b9c9a01ab9cac87e') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.509143 seconds.
+  path: Assets/WebAR Foundation/Runtime/Scripts/Utils.cs
+  artifactKey: Guid(a6aa32d2de8e9426aad4780175dfa9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Scripts/Utils.cs using Guid(a6aa32d2de8e9426aad4780175dfa9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '5e24f957502e98441c6afcee2613e870') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.259210 seconds.
+  path: Assets/StreamingAssets/targets.mind
+  artifactKey: Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/targets.mind using Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '034826b4b70232563eff8b39279fea77') in 0.000860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 169.660903 seconds.
+  path: Assets/StreamingAssets/targets.mind
+  artifactKey: Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/targets.mind using Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '8be567c58e0912760b0b6e7b749ff0de') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.200467 seconds.
+  path: Assets/StreamingAssets/targets.mind
+  artifactKey: Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/targets.mind using Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '19e412f5491709f2d670a24854925d31') in 0.016241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3580.
+Memory consumption went from 82.2 MB to 82.2 MB.
+Total: 3.922458 ms (FindLiveObjects: 0.099541 ms CreateObjectMapping: 0.028417 ms MarkObjects: 3.773750 ms  DeleteObjects: 0.020291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190.614274 seconds.
+  path: Assets/StreamingAssets/targets.mind
+  artifactKey: Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/targets.mind using Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '7ef5738efe52f53de50bbffb7d4fce48') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.099407 seconds.
+  path: Assets/StreamingAssets/targets.mind
+  artifactKey: Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/targets.mind using Guid(3b9d7b03c54080840bb87cb0b8a0a033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '92dceeff99370258313c541314790b3f') in 0.003282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3580.
+Memory consumption went from 81.7 MB to 81.7 MB.
+Total: 2.830666 ms (FindLiveObjects: 0.102875 ms CreateObjectMapping: 0.029708 ms MarkObjects: 2.687959 ms  DeleteObjects: 0.009709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3580.
+Memory consumption went from 81.7 MB to 81.7 MB.
+Total: 6.089291 ms (FindLiveObjects: 0.148584 ms CreateObjectMapping: 0.030208 ms MarkObjects: 5.882750 ms  DeleteObjects: 0.027000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3580.
+Memory consumption went from 81.4 MB to 81.4 MB.
+Total: 7.053959 ms (FindLiveObjects: 0.132458 ms CreateObjectMapping: 0.029750 ms MarkObjects: 6.847791 ms  DeleteObjects: 0.043584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3425.236406 seconds.
+  path: Assets/WebAR Foundation/Editor
+  artifactKey: Guid(a0e461341c4514095a45e7601dd56086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Editor using Guid(a0e461341c4514095a45e7601dd56086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'a0acb87eaab0924f98db1783c235d70a') in 0.001407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.983785 seconds.
+  path: Assets/WebAR Foundation/Editor/ImageTrackingDebugWindow.cs
+  artifactKey: Guid(74e792a79cf1e4844865637a5f33d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Editor/ImageTrackingDebugWindow.cs using Guid(74e792a79cf1e4844865637a5f33d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '98899844f850f592818444378325b84d') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.097770 seconds.
+  path: Assets/WebAR Foundation/Editor/MindARImageTrackingManagerEditor.cs
+  artifactKey: Guid(c9e9f366b9f664f1bb618e2944f8233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Editor/MindARImageTrackingManagerEditor.cs using Guid(c9e9f366b9f664f1bb618e2944f8233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '7975c787dffdcb6aed2fc51a45cdfeaa') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.883998 seconds.
+  path: Assets/WebAR Foundation/Editor/SceneUtils.cs
+  artifactKey: Guid(c4547620c60dd4d8b93624f6fdb239b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Editor/SceneUtils.cs using Guid(c4547620c60dd4d8b93624f6fdb239b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'cc27c4cc3ab010a698e61ab974bf4ce9') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 112.017029 seconds.
+  path: Assets/WebAR Foundation/Runtime/Prefabs/ARCamera.prefab
+  artifactKey: Guid(1dc5ee80c79944e10b01ab0c9dbc5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Prefabs/ARCamera.prefab using Guid(1dc5ee80c79944e10b01ab0c9dbc5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'e0cc421483e6a9ff5cd11ed844739080') in 0.103937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.483724 seconds.
+  path: Assets/WebAR Foundation/Runtime/Materials/Occluder.mat
+  artifactKey: Guid(22e8d40ae37704d94a8a44db2f5e6851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Runtime/Materials/Occluder.mat using Guid(22e8d40ae37704d94a8a44db2f5e6851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: '02e5626a16fc707813f81efd5c7f111d') in 0.066104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.262378 seconds.
+  path: Assets/WebAR Foundation/Editor/FaceTrackingDebugWindow.cs
+  artifactKey: Guid(7a1da4551fd2a450da0fa9a13f4ba128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebAR Foundation/Editor/FaceTrackingDebugWindow.cs using Guid(7a1da4551fd2a450da0fa9a13f4ba128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 11 workers.
+ -> (artifact id: 'f8faa8c96dafdaf26884becd4566a878') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

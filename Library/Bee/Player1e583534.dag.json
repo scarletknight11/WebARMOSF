@@ -312,13 +312,7 @@
         304,
         305,
         306,
-        307,
-        308,
-        309,
-        310,
-        311,
-        312,
-        313
+        307
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -14139,116 +14133,34 @@
       "DebugActionIndex": 284
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.framework.js",
+      "DisplayName": "Copying webARMOSF.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.framework.js"
       ],
       "ToBuildDependencies": [
         284
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 285
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webARMOSF.framework.js.gz_siac.info",
-      "DisplayName": "Writing webARMOSF.framework.js.gz_siac.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 92617,
-      "PayloadLength": 488,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/webARMOSF.framework.js.gz_siac.info"
-      ],
-      "DebugActionIndex": 286
-    },
-    {
-      "Annotation": "GzipMarker /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.framework.js.gz",
-      "DisplayName": "GzipMarker webARMOSF.framework.js",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/webARMOSF.framework.js.gz_siac.info\"",
+      "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.wasm",
+      "DisplayName": "Copying webARMOSF.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/webARMOSF.framework.js.gz_siac.info",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        285,
-        286
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 287
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.wasm"
       ],
       "ToBuildDependencies": [
         282
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 288
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webARMOSF.wasm.gz_heel.info",
-      "DisplayName": "Writing webARMOSF.wasm.gz_heel.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 93200,
-      "PayloadLength": 472,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/webARMOSF.wasm.gz_heel.info"
-      ],
-      "DebugActionIndex": 289
-    },
-    {
-      "Annotation": "GzipMarker /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.wasm.gz",
-      "DisplayName": "GzipMarker webARMOSF.wasm",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/webARMOSF.wasm.gz_heel.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/webARMOSF.wasm.gz_heel.info",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        288,
-        289
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -14263,7 +14175,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -14278,20 +14190,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93760,
+      "PayloadOffset": 92602,
       "PayloadLength": 1827,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -14317,73 +14229,32 @@
       "ToBuildDependencies": [
         2,
         5,
-        293
+        289
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 290
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za\" a -tgzip \"/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.data",
+      "DisplayName": "Copying webARMOSF.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/7za"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.data"
       ],
       "ToBuildDependencies": [
-        294
+        290
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 295
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webARMOSF.data.gz_z8zx.info",
-      "DisplayName": "Writing webARMOSF.data.gz_z8zx.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 95682,
-      "PayloadLength": 449,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/webARMOSF.data.gz_z8zx.info"
-      ],
-      "DebugActionIndex": 296
-    },
-    {
-      "Annotation": "GzipMarker /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.data.gz",
-      "DisplayName": "GzipMarker webARMOSF.data",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2022.3.42f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/webARMOSF.data.gz_z8zx.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/webARMOSF.data.gz_z8zx.info",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/modules.asset",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.data.gz"
-      ],
-      "ToBuildDependencies": [
-        295,
-        296
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "PreprocessJS Library/Bee/artifacts/WebGLwebARMOSF.loader.js",
       "DisplayName": "PreprocessJS WebGLwebARMOSF.loader",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGLwebARMOSF.loader.js'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data.gz'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/hagarplatner/Documents/GitHub/WebARMOSF/Library/Bee/artifacts/WebGLwebARMOSF.loader.js'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -14392,7 +14263,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.loader.js",
@@ -14405,14 +14276,14 @@
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/Build/webARMOSF.loader.js"
       ],
       "ToBuildDependencies": [
-        298
+        292
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "PreprocessJS /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/index.html'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data.gz'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='webARMOSF.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/index.html'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='webARMOSF.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -14421,7 +14292,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/favicon.ico",
@@ -14433,7 +14304,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/fullscreen-button.png",
@@ -14445,7 +14316,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/MemoryProfiler.png",
@@ -14457,7 +14328,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-empty-dark.png",
@@ -14469,7 +14340,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-empty-light.png",
@@ -14481,7 +14352,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-full-dark.png",
@@ -14493,7 +14364,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-full-light.png",
@@ -14505,12 +14376,12 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "PreprocessJS /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/style.css'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data.gz'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='webARMOSF.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/style.css'\"  \"locals.webglIncludes='/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='WebARMOSF'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='webARMOSF.data'\" \"FRAMEWORK_FILENAME='webARMOSF.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='webARMOSF.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.42f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='webARMOSF.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.42f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -14519,7 +14390,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/unity-logo-dark.png",
@@ -14531,7 +14402,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/unity-logo-light.png",
@@ -14543,7 +14414,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/webgl-logo.png",
@@ -14555,7 +14426,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles /Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/webmemd-icon.png",
@@ -14567,7 +14438,7 @@
       "Outputs": [
         "/Users/hagarplatner/Documents/Builds/WebARMOSF/webARMOSF/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "Player",
@@ -14578,11 +14449,17 @@
         3,
         4,
         279,
+        285,
+        286,
         287,
-        290,
+        288,
         291,
-        292,
+        293,
+        294,
+        295,
+        296,
         297,
+        298,
         299,
         300,
         301,
@@ -14590,16 +14467,10 @@
         303,
         304,
         305,
-        306,
-        307,
-        308,
-        309,
-        310,
-        311,
-        312
+        306
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 313
+      "DebugActionIndex": 307
     }
   ],
   "FileSignatures": [
@@ -14967,7 +14838,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 313
+          "Player": 307
         }
 ,  "DefaultNodes": [
     0
