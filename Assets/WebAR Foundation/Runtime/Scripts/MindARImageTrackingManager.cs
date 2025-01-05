@@ -21,6 +21,7 @@ public class MindARImageTrackingManager : MonoBehaviour
         public event OnTargetEvent onTargetUpdateEvent;
 
         [SerializeField] public string mindFileURL;
+        [SerializeField] public string mindFileURL2;
 
         [SerializeField] public bool autoStart = true;
 
@@ -89,6 +90,7 @@ public class MindARImageTrackingManager : MonoBehaviour
         {   
             MindARImagePlugin.SetIsFacingUser(facingUser);
             MindARImagePlugin.SetMindFilePath(mindFileURL);
+            //MindARImagePlugin.SetMindFilePath(mindFileURL2);
             MindARImagePlugin.SetMaxTrack(maxTrack);
             MindARImagePlugin.SetFilterMinCF(0.001f);            
             float filterBeta = 1000 / Mathf.Pow(10, stability); // [100, 10, 1, 0.1, 0.01, 0.001]

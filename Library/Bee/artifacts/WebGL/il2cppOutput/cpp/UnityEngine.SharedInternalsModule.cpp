@@ -334,6 +334,7 @@ struct UnmarshalledAttribute_t3D645C3393EF99EED2893026413D4F5B489CD13B  : public
 };
 struct UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	String_t* ___U3CNameU3Ek__BackingField;
 };
 struct VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -568,17 +569,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m75590D9A8E1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsFreeFunction_mCF665BA0A4CA25DA0EA8C3C5EDDB9A03315C9C4F_inline (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mCDF45F4290C6955E1E9FE460709D9ACA18B2D06E (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, bool ___1_isFreeFunction, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeMethodAttribute_set_IsThreadSafe_m443623C95A2E3552D0A791DC65E20ADFC447AE3F_inline (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m0B32894B3BD625410703207C7DBF61098BAEE973 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, bool ___1_isFreeFunction, bool ___2_isThreadSafe, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mEA2A3B247A134B4453743CCF55655D16C63C741E (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m858E4E653A2F81F5313EF4F5D69740D945B19ED7_inline (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m0B32894B3BD625410703207C7DBF61098BAEE973 (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, String_t* ___0_name, bool ___1_isFreeFunction, bool ___2_isThreadSafe, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_CodegenOptions_mEECF2309A52F63B6258608EFF56AEAEF5E5572FC_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_Header_m847CE2407B2426DFF214F3F18DE9644062A5FB8A_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTypeAttribute__ctor_m42A2C59E33BA5B0DD88A44BA5C9A1C0FDDFBCF46 (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, int32_t ___0_codegenOptions, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeTypeAttribute_set_IntermediateScriptingStructName_mA5791DC59CA4C7572D8B5C80D28176559E2BC907_inline (NativeTypeAttribute_tB60F1675F1F20B6CB1B871FDDD067D672F75B8D1* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotNullAttribute_set_Exception_m04F458FD91F138C58DC3A11E7C8E945701ECA528_inline (NotNullAttribute_t2E29B7802E8ED55CEA04EC4A6C254C6B60272DF7* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_mEA2A3B247A134B4453743CCF55655D16C63C741E (NativeMethodAttribute_tDE40C2DA59999D4870D672D8EDACC3504D2FA270* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Name_m922EC8831D7A1DDE802D33204B88715EEC7B121B_inline (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StaticAccessorAttribute_set_Type_m2B350A872AB9222E3CEC32AA03A6B85E7770BDC0_inline (StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_ThrowsException_m523089D1314C7549B50B3D1123149F064CC0A708_inline (NativeThrowsAttribute_t211CE8D047A8D45676C9ED399D5AA3B4A2C3E625* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -752,6 +754,13 @@ IL_0015:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2F00FAC0C9348472A15E93AD256145DCDD967E59 (VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489* __this, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisibleToOtherModulesAttribute__ctor_m2FC15A41D7218FFD29ECA4F70323F6DF8F19EC35 (VisibleToOtherModulesAttribute_tE7803AC6A0462A18B7EEF17C4A1036DEE993B489* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_modules, const RuntimeMethod* method) 
 {
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
@@ -1081,11 +1090,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute_set_TargetType_m
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_mAF06F05D29FE386561167B2BDF0149E3744411EA (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, const RuntimeMethod* method) 
+{
+	{
+		NativeMethodAttribute__ctor_mEA2A3B247A134B4453743CCF55655D16C63C741E(__this, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m32EC1C27977EA39BC2824743EC417561AC138BA3 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
 		String_t* L_0 = ___0_name;
 		NativeMethodAttribute__ctor_m75590D9A8E1851C1DA619C07522D5D4AA63797B5(__this, L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m61A6A85F47F1111850244DFFD401B94E3234BDC7 (NativePropertyAttribute_tAF7FB03BF7FFE9E8AB0E75B0F842FC0AA22AE607* __this, String_t* ___0_name, bool ___1_isFree, int32_t ___2_targetType, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_name;
+		bool L_1 = ___1_isFree;
+		NativeMethodAttribute__ctor_mCDF45F4290C6955E1E9FE460709D9ACA18B2D06E(__this, L_0, L_1, NULL);
+		int32_t L_2 = ___2_targetType;
+		NativePropertyAttribute_set_TargetType_m858E4E653A2F81F5313EF4F5D69740D945B19ED7_inline(__this, L_2, NULL);
 		return;
 	}
 }
@@ -1457,6 +1484,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m7C07CF7
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_name, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_name;
+		UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline(__this, L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99 (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1634,6 +1679,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NativeThrowsAttribute_set_Th
 	{
 		bool L_0 = ___0_value;
 		__this->___U3CThrowsExceptionU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }

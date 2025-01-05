@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\WebARMOSF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|d:\\github\\webarmosf\\assets\\webar foundation\\runtime\\scripts\\mindarimagetrackingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|solutionrelative:assets\\webar foundation\\runtime\\scripts\\mindarimagetrackingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|D:\\Github\\WebARMOSF\\assets\\webar foundation\\runtime\\scripts\\imagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|solutionrelative:assets\\webar foundation\\runtime\\scripts\\imagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|D:\\Github\\WebARMOSF\\assets\\scripts\\multiimagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\multiimagetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|D:\\Github\\WebARMOSF\\assets\\webar foundation\\runtime\\scripts\\arcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF61EF16-F4BD-256F-142E-BAED8F5DD2D3}|Assembly-CSharp.csproj|solutionrelative:assets\\webar foundation\\runtime\\scripts\\arcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ARCamera.cs",
+              "DocumentMoniker": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\ARCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\WebAR Foundation\\Runtime\\Scripts\\ARCamera.cs",
+              "ToolTip": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\ARCamera.cs",
+              "RelativeToolTip": "Assets\\WebAR Foundation\\Runtime\\Scripts\\ARCamera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T00:41:35.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MultiImageTracker.cs",
+              "DocumentMoniker": "D:\\Github\\WebARMOSF\\Assets\\Scripts\\MultiImageTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MultiImageTracker.cs",
+              "ToolTip": "D:\\Github\\WebARMOSF\\Assets\\Scripts\\MultiImageTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MultiImageTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T00:34:32.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageTracker.cs",
+              "DocumentMoniker": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\ImageTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\WebAR Foundation\\Runtime\\Scripts\\ImageTracker.cs",
+              "ToolTip": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\ImageTracker.cs",
+              "RelativeToolTip": "Assets\\WebAR Foundation\\Runtime\\Scripts\\ImageTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T00:15:56.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MindARImageTrackingManager.cs",
+              "DocumentMoniker": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\MindARImageTrackingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\WebAR Foundation\\Runtime\\Scripts\\MindARImageTrackingManager.cs",
+              "ToolTip": "D:\\Github\\WebARMOSF\\Assets\\WebAR Foundation\\Runtime\\Scripts\\MindARImageTrackingManager.cs",
+              "RelativeToolTip": "Assets\\WebAR Foundation\\Runtime\\Scripts\\MindARImageTrackingManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwFwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T23:37:17.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
